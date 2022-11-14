@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#lists {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 2px double black;
+    border-radius: 16px;
+    background-color: #f0e7de;
+    margin-top: 60px;
+}
+
+.list {
+    width: 90%;
+    margin: auto;
+    padding: 24px;
+    border: 1px dotted black;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 800;
+    color: white;
+}
+
+#likes, #dislikes {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4d4848;
+}
+
+.likess, .dis-likes {
+    font-size: 28px;
+    font-weight: 800;
+    color: blue;
+}
+
+p {
+    font-size: 26px;
+    margin: 12px 0;
+    background-color: biege;
+    color: #534949;
+}
+
+#lists p { 
+    font-size: 24px;
+    font-weight: 400;
+    margin: 12px 0;
+    color: #534949;
+}
+
+.list p {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 5px 10px;
+    color: red;
+}
+
+ol, ul {
+    list-style: upper-alpha;
+    font-size: 24px;
+}
+
+#mylikes {
+    font-size: 20px;
+    color: #605a5a;
+    margin: 0 0 24px 40px;
+    list-style: lower-alpha;
+}
+
+.my-likes, .my-dislikes {
+    font-size: 28px;
+    color: #988d8d;
+    list-style: lower-roman;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+#mydislikes{
+    font-size: 20px;
+    color: #605a5a;
+    margin: 0 0 24px 40px;
+    list-style-type: disc;
+}
+
+#mylikes li, #my-dislikes li {
+    margin-bottom: 4px;
+    padding-left: 8px;
+}
+
+ .my-likes li, .my-dislikes li {
+    margin-bottom: 6px;
+    padding-left: 6px;
+ }
