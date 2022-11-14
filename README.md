@@ -1,7 +1,16 @@
-## About
-Task involves creating an ordered and unordered lists using both IDs and classes on tags and elements to understand CSS hierarchy of specificity and inheritance on stylings. 
----
-Task given by Stutern.
+## Overview
+Create an ordered and unordered list of your likes and dislikes.
+
+## Requirements
+- Give class names and id names to both parent tags and children tags. 
+- Give stylings to them using both their class names and id to understand specificity as well as an inheritance on stylings.
+
+## Technologies used
+. HTML
+. CSS 
+
+## Acknowledgement
+- Stutern
 
 ## links
 - https://github.com/Busybeebee11/specificity (task link)
